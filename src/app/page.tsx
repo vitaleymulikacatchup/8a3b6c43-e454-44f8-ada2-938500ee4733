@@ -19,12 +19,6 @@ export default function Home() {
       defaultButtonVariant="text-stagger"
       defaultTextAnimation="reveal-blur"
       borderRadius="sharp"
-      contentWidth="default"
-      sizing="default"
-      background="plain"
-      cardStyle="elevated"
-      primaryButtonStyle="default"
-      secondaryButtonStyle="default"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
