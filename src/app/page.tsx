@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -19,11 +19,16 @@ export default function Home() {
       defaultButtonVariant="text-stagger"
       defaultTextAnimation="reveal-blur"
       borderRadius="sharp"
+      contentWidth="default"
+      sizing="default"
+      background="plain"
+      cardStyle="elevated"
+      primaryButtonStyle="default"
+      secondaryButtonStyle="default"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="https://images.pexels.com/photos/16822611/pexels-photo-16822611.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          logoAlt="Bean & Brew Coffee"
           brandName="Bean & Brew"
           button={{
             text: "Order Now",
